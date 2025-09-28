@@ -1,33 +1,27 @@
-/* Internal CSS chuyển thành external */
 
-/* Style chung cho tiêu đề */
 h1, h2, h3, h4 {
     font-size: 24px;
-    -webkit-text-stroke: 1px black; /* viền chữ */
+    -webkit-text-stroke: 1px black;
 }
 
-/* Div giới thiệu bản thân */
 .gioithieu {
     background-color: #F3FDE8;
     padding: 15px;
 }
 
-/* Div liên hệ */
 .lienhe {
-    background-image: url("image/image9.jpg"); /* ảnh nền tự chọn */
+    background-image: url("image/image9.jpg");
     background-repeat: repeat;
     text-align: center;
     padding: 20px;
 }
 
-/* Bảng mục tiêu */
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
 }
 
-/* Menu điều hướng */
 nav {
     background-color: #d4f2f4;
     padding: 10px;
@@ -41,7 +35,6 @@ nav a {
     font-weight: bold;
 }
 
-/* Footer */
 footer {
     background-color: #d4f2f4;
     text-align: center;
@@ -51,3 +44,4 @@ footer {
 footer p {
     color: #0b0848;
 }
+
